@@ -1,0 +1,25 @@
+{
+  "name": "sit725-prac2",
+  "version": "1.0.0",
+  "description": "Repository for Practical 2.",
+  "dependencies": {
+    "express": "*",
+    "materialize-css": "^1.0.0-rc.2",
+    "mongodb": "^3.6.6"
+  },
+  "main": "test.js",
+  "scripts": {
+    "start": "node test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/west557/SIT725-Prac2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/west557/SIT725-Prac2/issues"
+  },
+  "homepage": "https://github.com/west557/SIT725-Prac2#readme"
+}

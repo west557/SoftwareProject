@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>SIT725 Software Project - Scott West</title>
+    <!--Linking the index.html file to the css stylesheet.-->
+    <link rel="stylesheet" href="style.css">
+    <meta name="author" content="Scott">
+    <script src="env.js"></script>
+
+     <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--Import materialize.css-->
+     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+  </head>
+
+
+    <body>
+      <script src="env.js"></script>
+
+      <div class="Heading">
+        <h1 style="text-align: center;">Active Transfer</h1> 
+
+        <div class="card-panel teal lighten-2">
+          <h3>
+            A Program created by Scott West from Deakin University. 
+            Designed to identify money laundering and suspicious transactions.  <br><br>
+            We would love to assist you with your transaction!
+            This program will identify if the transaction is suspicious.
+            Please enter the transaction details and press submit.
+            The program will analyse the transaction and return a result. <br><br>
+          </h3>            
+        </div>
+      </div>
+
+      <div class="container">
+
+        <div class="header">
+            <h2>Check Transaction</h2>
+          </div>
+
+          <div id="error_message"></div>
+          <form class="form" id="form" onsubmit="return validation()">
+            
+            <div class="form-control">
+              <label for="to">To</label>
+              <input type="text" placeholder="Please Enter Payor" id="to" required>
+              <small>Alert!</small>
+            </div>
+            
+            <div class="form-control">
+              <label for="">Location</label>
+              <input type="text" placeholder="Please Enter the Location" id="location" required>
+              <small>Alert!</small>
+            </div>
+
+            <div class="form-control">
+              <label for="">Account</label>
+              <input type="number" placeholder="Bank Account" id="account" required>
+              <small>Alert!</small>
+            </div>
+
+            <div class="form-control">
+              <label for="">Message</label>
+              <input type="text" placeholder="Transaction Description" id="message">
+              <small>Alert!</small>
+            </div> 
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </form>
+      </div>
+
+    </body>
+
+    <footer>
+        <div>
+          <div class="row">
+            <div class="col l6 s12">
+              <h3>Further Information</h3>
+              <p class="grey-text text-lighten-4">
+                For more information on this program.
+                Please talk to Scott West! Or email Deakin University.
+                A link to the Deakin University page is in the Links section below.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h3>List of Relevant Links</h3>
+              <ul>
+                <li><a class="grey-text text-lighten-3" target=”_blank” href="https://www.deakin.edu.au/">https://www.deakin.edu.au/</a></li>
+                <li><a class="grey-text text-lighten-3" target=”_blank” href="https://www.investopedia.com/terms/m/moneylaundering.asp">https://www.investopedia.com/terms/m/moneylaundering.asp</a></li>
+                <li><a class="grey-text text-lighten-3" target=”_blank” href="https://lighthouse.mq.edu.au/article/february/money-laundering-is-big-business-in-australia">https://lighthouse.mq.edu.au/article/february/money-laundering-is-big-business-in-australia</a></li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          © 2021 Copyright Text
+        </div>
+      </footer>
+
+</html>

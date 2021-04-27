@@ -1,0 +1,130 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+  body {justify-content: center;
+    background-color:azure;
+    display:inline-block;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    color:black;}
+
+
+  footer {justify-content: center;
+      background-color: crimson;
+      font: 10px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;}
+    
+  .container {
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px;
+    width: 600px;
+    transform: translate(-5%,-5%);
+    max-width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    margin-left: 30%;
+  }
+
+  .container #error_message {
+    margin-bottom: 20px;
+    padding: 0px;
+    background: red;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+
+  }
+
+  .header {
+    background-color: rgb(27, 117, 177);
+    border-bottom: 1px solid;
+    padding: 40px 150px;
+  } 
+
+
+  /* The form controls in CSS */
+
+  .form {
+    padding: 30px 30px;
+    top: 50%;
+    left: 50%;
+  }
+  
+  .form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+
+  .form-control input {
+    border: 2px;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .form-control small {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .form button {
+    align-content: center;
+    border: 2px solid black;
+    margin-top: 15px;
+    width: 50%;
+    color: blue;
+    padding: 10px;
+    display: block;
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+  } 
+
+/*The styling of the success and error traits */
+
+  .form-control.success input {
+    border-color: rgb(72, 136, 7);
+  }
+
+  .form-control.error input {
+    border-color: red;
+  }
+
+  .form-control small {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .form-control.error small {
+    color: red;
+    visibility: visible;
+  }
+
+
+  button {height: 50px; 
+          width: 200px;
+          text-align: center;
+          align-content: center;
+          }
+
+
